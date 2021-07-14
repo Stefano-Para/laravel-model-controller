@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: grey;
+  height: 120px;
+}
+
+.active {
+  background-color: lightblue;
+}
+
+main {
+  background-color: orange;
+  height: 500px;
+}
+
+footer {
+  background-color: lightblue;
+  height: 80px;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  color: white;
+  background-color: black;
+}
+
+.card {
+  width: calc(100% / 5);
+}
+
